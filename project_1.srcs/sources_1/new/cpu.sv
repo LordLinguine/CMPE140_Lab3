@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module cpu( input logic rst_n, clk,
+module cpu( input logic clk, rst_n,
             input logic [31:0] imem_insn, dmem_data,
             output logic [31:0] imem_addr, dmem_addr,
             output logic dmem_wen
